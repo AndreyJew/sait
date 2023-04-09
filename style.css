@@ -236,7 +236,7 @@ h3{
 
 @media screen and (max-width:1556px){
 	.info.a{
-	position: relative;
+	
 		left: 40px;
 	}
 	
@@ -256,8 +256,7 @@ h3{
 	}
 	
 	.link.s{
-		left: 0px;
-		right: 0px;
+		
 		top: -23px;
 		font-size: 10px;
 	}
@@ -295,7 +294,7 @@ h3{
 	}
 	.info.a{
 		position: relative;
-			left: -10px;
+			left: 10px;
 		}
 	.content{
 
