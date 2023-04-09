@@ -146,6 +146,8 @@ color: black;
 }
 .pac{
 display: flex;
+position: relative;
+left: -30px ;
 flex-wrap: wrap;
 }
 #pc{
