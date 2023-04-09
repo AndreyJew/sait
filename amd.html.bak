@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+  <title>Конфигуратор ПК</title>
+
+  <link rel="icon" href="img/flaspc.jpg" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div id="conteiner">
+
+<div class="menu">
+			<img src="img/logo.png" class="k">
+			<div class='link' align="center">
+			<a href="index.html">Главная страница</a>
+			<a href="#">Готовые сборки</a>
+			<a href="amd.html">КонфигураторПК</a>
+			<div class="link s">
+				
+			<a href="#" id="b1">Помощь</a>
+			
+			<a href="#" class="glavar" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo" id="b1">ЗаказатьПК</a>
+			<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				<div class="modal-dialog">
+				  <div class="modal-content">
+					<div class="modal-header">
+					  <h3 class="modal-title" id="exampleModalLabel"> ЗаказатьПК </h3>
+					  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"> </button>
+					</div>
+					<div class="modal-body">
+					  <form >
+						<div class="mb-3">
+							<label for="message-text" class="col-form-label"> Ваше имя </label>
+							<input type="text" class="form-control" id="recipient-name" >
+						  </div>
+						  <div class="mb-3">
+							<label for="message-text" class="col-form-label"> Телефон </label>
+							<input type="numeric" required placeholder="Пример: +79181145846" class="form-control" id="recipient-name">
+						  </div>
+						<div class="mb-3">
+						  <label for="recipient-name" class="col-form-label"> E-Mail </label>
+						  <input type="email" required placeholder="Пример: admin@mail.ru" class="form-control" id="recipient-name">
+						</div>
+						<div class="mb-3">
+							<label for="message-text" class="col-form-label"> Комплектация </label>
+							
+							
+							<select name="bp" class="form-select form-select-lg mb-" aria-label=".form-select-lg example">
+  <option selected> Выберите комплектацию  </option>
+  <option value="DEEPCOOL DE500 v2"> DEEPCOOL DE500 v2 </option>
+  <option value="Thermaltake TR2 S 500W"> Thermaltake TR2 S 500W </option>
+  <option value="CoolerMaster Elite V3 600W"> CoolerMaster Elite V3 600W </option>
+  <option value="ZALMAN GigaMax (GVII) 650W"> ZALMAN GigaMax (GVII) 650W </option>
+</select>
+						  </div>
+						
+						
+						<label class="form-check-label" for="gridCheck1">  Соглашаюсь на обработку персональных данных </label>
+						<input class="form-check-input" type="checkbox" id="gridCheck1">
+					  </form>
+					  <a href="index.html" > <button type="button" style="width: 100%" class="btn btn-primary">Отправить</button> </a>
+					</div>
+					
+				  </div>
+				</div>
+			  </div>
+		
+			</div>
+</div>
+</div>
+<h3> E-mail: </h3 > 
+ <input type="text" name="email" placeholder="Введите электронную почту. Например: 123@mail.ru">
+
+<form>
+<h3> Процессор AMD </h3>
+<select name="proc" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+  <option selected> Выберите процессор </option>
+  <option value="Ryznen 3 3100"> Ryznen 3 3100   </option>  
+  <option value="Ryznen 5 3300x"> Ryznen 5 3300x </option>
+  <option value="Ryznen 5 2600"> Ryznen 5 2600 </option>
+  <option value="Ryznen 5 3600"> Ryznen 5 3600 </option>
+  <option value="Ryznen 7 1700"> Ryznen 7 1700 </option>
+  <option value="Ryznen 7 2700"> Ryznen 7 2700 </option>
+  <option value="Ryznen 7 3700"> Ryznen 7 3700 </option>
+</select>
+
+
+<h3> Материнская плата </h3>
+<select name="mat" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+  <option selected> Выберите материнскую плату </option>
+  <option value="MSI A320M-A PRO"> MSI A320M-A PRO </option>
+  <option value="GIGABYTE A520M H"> GIGABYTE A520M H </option>
+  <option value="ASUS PRIME B450M-K"> ASUS PRIME B450M-K </option>
+  <option value="GIGABYTE B450M DS3H V2"> GIGABYTE B450M DS3H V2 </option>
+  <option value="ASRock B550M-HDV"> ASRock B550M-HDV  </option>
+  <option value="MSI X470 GAMING PLUS MAX">MSI X470 GAMING PLUS MAX </option>
+  <option value="GIGABYTE X570 GAMING X"> GIGABYTE X570 GAMING X </option>
+</select>
+
+
+<h3> Видеокарта </h3>
+<select name="vid" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+  <option selected> Выберите видеокарту </option>
+  <option value="GTX 1050ti"> GTX 1050ti </option>
+  <option value="GTX 1060"> GTX 1060 </option>
+  <option value="GTX 1650"> GTX 1650 </option>
+  <option value="GTX 1650 super"> GTX 1650 super </option>
+  <option value="GTX 1660"> GTX 1660  </option>
+  <option value="GTX 1660 Super">GTX 1660 Super </option>
+  <option value="GTX 1070"> GTX 1070 </option>
+</select>
+
+<h3> ОЗУ </h3>
+<select name="ozy" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+  <option selected> Выберите оперативную память </option>
+  <option value="Kingston HyperX FURY Black 4 ГБ"> Kingston HyperX FURY Black 4 ГБ </option>
+  <option value="Kingston HyperX FURY Black RGB 8 ГБ"> Kingston HyperX FURY Black RGB 8 ГБ </option>
+  <option value="Kingston HyperX FURY Black 16 ГБ"> Kingston HyperX FURY Black 16 ГБ </option>
+  <option value="Kingston HyperX Predator 16 ГБ"> Kingston HyperX Predator 16 ГБ  </option>
+  <option value="Kingston HyperX FURY Black RGB 32 ГБ"> Kingston HyperX FURY Black RGB 32 ГБ </option>
+  <option value="Kingston HyperX Predator RGB 64 ГБ"> Kingston HyperX Predator RGB 64 ГБ </option>
+</select>
+
+
+
+<h3> SSD </h3>
+<select name="ssd" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+  <option selected> Выберите SSD-накопитель </option>
+  <option value="120 ГБ Crucial BX500"> 120 ГБ Crucial BX500 </option>
+  <option value="240 ГБ Kingston A400"> 240 ГБ Kingston A400 </option>
+  <option value="480 ГБ WD Green"> 480 ГБ WD Green </option>
+  <option value="1000 ГБ Samsung 870 QVO"> 1000 ГБ Samsung 870 QVO </option>
+</select>  
+
+
+<h3> Жесткий диск </h3>
+<select name="dd" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+  <option selected> Выберите жесткий диск </option>
+  <option value="1 ТБ Seagate 7200 BarraCuda"> 1 ТБ Seagate 7200 BarraCuda </option>
+  <option value="1 ТБ WD Blue"> 1 ТБ WD Blue  </option>
+  <option value="3 ТБ Seagate BarraCuda"> 3 ТБ Seagate BarraCuda </option>
+  <option value="4 ТБ Seagate 5900 SkyHawk"> 4 ТБ Seagate 5900 SkyHawk </option>
+</select>   
+
+<h3> Блок питания </h3>
+<select name="bp" class="form-select form-select-lg mb-" aria-label=".form-select-lg example">
+  <option selected> Выберите блок питания </option>
+  <option value="DEEPCOOL DE500 v2"> DEEPCOOL DE500 v2 </option>
+  <option value="Thermaltake TR2 S 500W"> Thermaltake TR2 S 500W </option>
+  <option value="CoolerMaster Elite V3 600W"> CoolerMaster Elite V3 600W </option>
+  <option value="ZALMAN GigaMax (GVII) 650W"> ZALMAN GigaMax (GVII) 650W </option>
+</select>  
+
+
+
+</form>
+
+<div class="podval">
+	<div class="text">
+		<div id="t1"> КОНТАКТЫ<br><br></div>
+		ТЕЛЕФОН<br>
+		<div id="t1">8 988 524 34 22<br><br></div>
+		E-MAIL<br>
+		<div id="t1">MANAGER@FLASPC.RU<br><br></div>
+		ГРАФИК РАБОТЫ<br>
+		<div id="t1">Пн - Сб: 11:00-20:00</div>
+	</div>
+	<div id="soc">
+			<a href="#"><img src="img/tt.png" class="k3"></a>
+			<a href="#"><img src="img/tg.png" class="k3"></a>
+			<a href="https://vk.com/"><img src="img/vk.png" class="k3"></a>
+			<a href="#"><img src="img/in.png" class="k3"></a>
+			<a href="#"><img src="img/fb.png" class="k3"></a>
+		</div>
+</div>
+
+
+
+</div>
+</body>
+</html>
