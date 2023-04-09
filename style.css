@@ -236,7 +236,7 @@ h3{
 
 @media screen and (max-width:1556px){
 	.info.a{
-	
+	position: relative;
 		left: 40px;
 	}
 	
@@ -256,7 +256,8 @@ h3{
 	}
 	
 	.link.s{
-		
+		left: 0px;
+		right: 0px;
 		top: -23px;
 		font-size: 10px;
 	}
@@ -294,27 +295,30 @@ h3{
 	}
 	.info.a{
 		position: relative;
-			left: 10px;
+			left: -10px;
 		}
 	.content{
 
 		font-size: 15px;
 
-	
+	padding: 10px;
 	}
 	#pc{
 
-		width: 40%;
+		width: 50%;
 	}
 	.card-text{
-
+left: -75px;
 		font-size: 10px;
 	}
 	#zakazpc{
-
+left: 75px;
+top: -60px;
 		font-size: 10px;
 	}
-	
+	.info.a{
+		padding: 30px;
+	}
 	.carousel-caption.d-none.d-md-block{
 		font-size: 1px;
 	}
