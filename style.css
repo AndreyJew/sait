@@ -1,12 +1,13 @@
 html{
 	overflow-x:hidden;
+	
 }
 body{
 margin: 0;
 
 }
 #conteiner{
-	width: 2260px;
+	width: auto;
 	height: auto;
 	position: relative;
 	left: 0;
