@@ -1,13 +1,13 @@
 html{
+
 	overflow-x:hidden;
-	
 }
 body{
 margin: 0;
 
 }
 #conteiner{
-	width: auto;
+	width: 2280px;
 	height: auto;
 	position: relative;
 	left: 0;
@@ -198,21 +198,28 @@ h3{
 }
 @media screen and (max-width:2150px){
 	#conteiner{
+
 		width: 100%;
+
 	}
 	.menu{
+
 		width:100%;
+
 		
 	}
 	.info{
+
 		width: 100%;
+
 	}
 	
 	.link.s{
+
 		left: auto;
 		right: 0px;
-		
 		font-size: auto;
+
 	}
 	
 	
@@ -222,14 +229,18 @@ h3{
 	
 	
 	#p{
+
 		display: none;
+
 	}
 }
 
 @media screen and (max-width:1812px){
 	.info.a{
+
 	position: relative;
 		left: 210px;
+
 	}
 	
 	
@@ -237,8 +248,10 @@ h3{
 
 @media screen and (max-width:1556px){
 	.info.a{
+
 	position: relative;
 		left: 40px;
+
 	}
 	
 	
@@ -246,24 +259,33 @@ h3{
 
 @media screen and (max-width:1280px){
 	#conteiner{
+
 		width: 100%;
+
 	}
 	.menu{
+
 		width:100%;
 		
 	}
 	.info{
+
 		width: 100%;
+
 	}
 	
 	.link.s{
+
 		left: 0px;
 		right: 0px;
 		top: -23px;
 		font-size: 10px;
+
 	}
 	#p{
+
 		display: none;
+
 	}
 	
 }
@@ -271,10 +293,14 @@ h3{
 
 @media screen and (max-width:750px){
 	#soc{
+
 		display: none;
+
 	}
 	#p{
+
 		display: none;
+
 	}
 	.content{
 
@@ -283,45 +309,62 @@ h3{
 	}
 	
 	.carousel-caption.d-none.d-md-block{
+
 		font-size: 1px;
+
 	}
 }
 
 @media screen and (max-width:510px){
 	#soc{
+
 		display: none;
 	}
+
 	#p{
+
 		display: none;
 	}
+
 	.info.a{
+
 		position: relative;
 			left: -10px;
+
 		}
 	.content{
 
 		font-size: 15px;
-padding-left: 10px;
-padding-bottom: 18px;
-	padding-top: 70px;
+		padding-left: 10px;
+		padding-bottom: 18px;
+			padding-top: 70px;
 	}
 	#pc{
 
 		width: 50%;
+
 	}
 	.card-text{
+
 left: -75px;
 		font-size: 10px;
+
 	}
 	#zakazpc{
+
 left: 75px;
 top: -60px;
 		font-size: 10px;
+
 	}
 	.info.a{
+
 		padding: 30px;
+
 	}
 	.carousel-caption.d-none.d-md-block{
+
 		font-size: 1px;
+
 	}
 }
