@@ -26,6 +26,7 @@
 			
 			<!--ЗаказПК-->
 			<a href="#" class="glavar" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo" id="b1">ЗаказатьПК</a>
+			
 			<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
 				<div class="modal-dialog">
 				  <div class="modal-content">
@@ -83,10 +84,21 @@
 			  </div>
 
 			  <!--ЗаказПК-->
-		
+			  <a href="#" id="scroll_bottom">↓ Контакты</a>
+			  <script>
+			  $(function(){
+				  $('#scroll_bottom').click(function(){
+					  $('html, body').animate({scrollTop: $(document).height() - $(window).height()}, 600);
+					  return false;
+				  });
+			  });
+		  </script>
 			</div>
+			
 </div>
+
 </div>
+
 <style>
 	a { 
 	 text-decoration: none;
