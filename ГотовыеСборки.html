@@ -38,7 +38,17 @@
 						<div class="mb-3">
 							<label for="message-text" class="col-form-label"> Ваше имя </label>
 							<input type="text" class="form-control" id="recipient-name" >
+
+							<script src="https://snipp.ru/cdn/jquery/2.1.1/jquery.min.js"></script>
+
+							<script>
+								$('body').on('input', '#recipient-name', function(){
+									this.value = this.value.replace(/[^a-zа-яё\s]/gi, '');
+								});
+								</script>
+								
 						  </div>
+
 						  <div class="mb-3">
 							<label for="message-text" class="col-form-label"> Телефон </label>
 							<input type="numeric" required placeholder="Пример: +7 (421) 342 3423" id="tel" class="form-control" id="recipient-name">
