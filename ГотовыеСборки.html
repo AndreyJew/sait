@@ -26,6 +26,7 @@
 			
 			<!--ЗаказПК-->
 			<a href="#" class="glavar" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo" id="b1">ЗаказатьПК</a>
+			
 			<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
 				<div class="modal-dialog">
 				  <div class="modal-content">
@@ -34,35 +35,35 @@
 					  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" > </button>
 					</div>
 					<div class="modal-body">
-					  <form >
+					  <form>
 						<div class="mb-3">
 							<label for="message-text" class="col-form-label"> Ваше имя </label>
-							<input type="text" class="form-control" id="recipient-name" >
 
+							<input type="text" class="form-control" id="recipient-name-1" name="naz" required >
+							
 							<script src="https://snipp.ru/cdn/jquery/2.1.1/jquery.min.js"></script>
 
 							<script>
-								$('body').on('input', '#recipient-name', function(){
+								$('body').on('input', '#recipient-name-1', function(){
 									this.value = this.value.replace(/[^a-zа-яё\s]/gi, '');
 								});
 								</script>
-								
 						  </div>
 
 						  <div class="mb-3">
 							<label for="message-text" class="col-form-label"> Телефон </label>
-							<input type="numeric" required placeholder="Пример: +7 (421) 342 3423" id="tel" class="form-control" id="recipient-name">
+							<input type="numeric" name="tel" required placeholder="Пример: +7 (421) 342 3423" id="tel" class="form-control" id="recipient-name" required>
 
 						  </div>
 						<div class="mb-3">
 						  <label for="recipient-name" class="col-form-label"> E-Mail </label>
-						  <input type="email" required placeholder="Пример: admin@mail.ru" onfocus="if(placeholder == 'Пример: admin@mail.ru') {placeholder=''}" onblur = "if (placeholder == ''){placeholder = 'Пример: admin@mail.ru'}" class="form-control" id="recipient-name">
+						  <input type="email" required placeholder="Пример: admin@mail.ru" onfocus="if(placeholder == 'Пример: admin@mail.ru') {placeholder=''}" onblur = "if (placeholder == ''){placeholder = 'Пример: admin@mail.ru'}" class="form-control" id="recipient-name" required>
 						</div>
 						<div class="mb-3">
 							<label for="message-text" class="col-form-label"> Комплектация </label>
 							
 							
-							<select name="bp" class="form-select form-select-lg mb-" aria-label=".form-select-lg example">
+							<select name="bp" class="form-select form-select-lg mb-" aria-label=".form-select-lg example" >
   <option selected> Выберите комплектацию  </option>
   <option value="DEEPCOOL DE500 v2"> DEEPCOOL DE500 v2 </option>
   <option value="Thermaltake TR2 S 500W"> Thermaltake TR2 S 500W </option>
@@ -73,9 +74,11 @@
 						
 						
 						<label class="form-check-label" for="gridCheck1">  Соглашаюсь на обработку <a href="ссылка на страницу согласия"><u>персональных данных.</u></a> </label>
-						<input class="form-check-input" type="checkbox" id="gridCheck1">
+						<input class="form-check-input" type="checkbox" id="gridCheck1" required>
+
+						<a href="index.html"> <input type="submit" style="width: 100%" class="btn btn-primary" value="Отправить"></a>
 					  </form>
-					  <a href="index.html" > <button type="button" style="width: 100%" class="btn btn-primary">Отправить</button> </a>
+					 
 					</div>
 					
 				  </div>
@@ -83,17 +86,12 @@
 			  </div>
 
 			  <!--ЗаказПК-->
-			  <a href="#" id="scroll_bottom">↓ Контакты</a>
-			  <script>
-			  $(function(){
-				  $('#scroll_bottom').click(function(){
-					  $('html, body').animate({scrollTop: $(document).height() - $(window).height()}, 600);
-					  return false;
-				  });
-			  });
-		  </script>
+			  <a href="#pod">↓ Контакты</a>
+			  
 			</div>
+			
 </div>
+
 </div>
 <style>
 	a { 
