@@ -84,15 +84,8 @@
 			  </div>
 
 			  <!--ЗаказПК-->
-			  <a href="#" id="scroll_bottom">↓ Контакты</a>
-			  <script>
-			  $(function(){
-				  $('#scroll_bottom').click(function(){
-					  $('html, body').animate({scrollTop: $(document).height() - $(window).height()}, 600);
-					  return false;
-				  });
-			  });
-		  </script>
+			  <a href="#pod">↓ Контакты</a>
+			  
 			</div>
 			
 </div>
@@ -275,6 +268,7 @@
 
 <div class="podval">
 	<div class="text">
+		<a name="pod"></a>
 		<div id="t1"> КОНТАКТЫ<br><br></div>
 		ТЕЛЕФОН<br>
 		<div id="t1">8 988 524 34 22<br><br></div>
@@ -292,18 +286,18 @@
 		</div>
 </div>
 
+
+
 <div id="disqus_thread"></div>
 <script>
-    /**
-    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    
     
     var disqus_config = function () {
-    this.page.url = 'https://andreyjew.github.io/sait/index.html';  // Replace PAGE_URL with your page's canonical URL variable
-    this.page.identifier = 'disqus.html'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    this.page.url = 'https://andreyjew.github.io/sait/index.html';  
+    this.page.identifier = 'disqus.html'; 
     };
     
-    (function() { // DON'T EDIT BELOW THIS LINE
+    (function() {
     var d = document, s = d.createElement('script');
     s.src = 'https://prodazha-1.disqus.com/embed.js';
     s.setAttribute('data-timestamp', +new Date());
@@ -312,6 +306,14 @@
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 
+<style>
+	#disqus_thread{
+		
+margin-top: 2%;
+		margin-right: 3%;
+		margin-left: 3%;
+	}
+</style>
 
 <div class="btn-up btn-up_hide"></div>
 </div>
