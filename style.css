@@ -14,7 +14,6 @@ margin: 0;
 	background: url(img/фон.jpg);
 	
 }
-
 option{
 	width: 1000px; 
 height: 40px;
@@ -60,22 +59,6 @@ a{
 	border-radius: 10%;
 	
 }
-
-.p{
-	position: absolute;
-	top: 215px;
-	right: 260px;
-	width: 27%;
-	border-radius: 10%;
-	
-}
-.but{
-	position: absolute;
-	top: 880px;
-	right: 290px;
-	width: 25%;
-	border-radius: 10%;
-}
 	
 img.k3{
 	width: 40px;
@@ -111,15 +94,11 @@ font-size:17px ;
 	word-spacing: 0.1em;
 }
 .info{
-	width: 50%;
+	width: auto;
 	
-}
-.info.confi{
-	width: 50%;
 }
 
 .info.a{
-	width: auto;
 	padding-top: 100px;
 padding-left: 50px;
 }
@@ -223,9 +202,15 @@ details{
 	overflow:hidden;
 	margin-bottom: 1.5rem;
   }
-  summary::-webkit-details-marker{display:none;}
-  summary::-moz-list-bullet{list-style-type:none;}
-  summary::marker{display:none;} 
+  summary::-webkit-details-marker{
+	display:none;
+}
+  summary::-moz-list-bullet{
+	list-style-type:none;
+}
+  summary::marker{
+	display:none;
+} 
   summary {
 	 display:block;
 	 font-size:1.4em;
@@ -311,7 +296,11 @@ h3{
 
 		
 	}
-	
+	.info{
+
+		width: 100%;
+
+	}
 	
 	.link.s{
 
@@ -322,17 +311,17 @@ h3{
 	}
 	
 	
-	
-}
-@media screen and (max-width:1950px){
-	#p{
-top: 280px;
-width: 25%;
-	}
-	
-	
 }
 
+@media screen and (max-width:1770px){
+	
+	
+	#p{
+
+		display: none;
+
+	}
+}
 
 @media screen and (max-width:1812px){
 	.info.a{
@@ -356,32 +345,10 @@ width: 25%;
 
 		font-size: 35px;
 	}
-	/* менять */
-	.p.amd{
-		display: none;
-	}
-	.but{
-		display: none;
-	}
-	.info.confi{
-		width: auto;
-	}
-		/* менять */
 	
 }
-@media screen and (max-width:1400px){
-	
-	#b1{
-		font-size:12px;
-		
-	}
-	#p{
-		top: 300px;
-		width: 30%;
-		right: 170px;
-	}
-	
-}
+
+
 @media screen and (max-width:1280px){
 	#conteiner{
 
@@ -415,13 +382,7 @@ width: 25%;
 	
 }
 
-@media screen and (max-width:1000px){
-	.content{
 
-		font-size: 25px;
-		
-	}
-}
 @media screen and (max-width:750px){
 	#soc{
 
@@ -436,9 +397,7 @@ width: 25%;
 	.content{
 
 		font-size: 15px;
-		padding-left: 20px;
-		padding-bottom: 18px;
-			padding-top: 70px;
+
 	}
 	
 	.carousel-caption.d-none.d-md-block{
@@ -465,6 +424,13 @@ width: 25%;
 			left: -10px;
 
 		}
+	.content{
+
+		font-size: 15px;
+		padding-left: 10px;
+		padding-bottom: 18px;
+			padding-top: 70px;
+	}
 	#pc{
 
 		width: 50%;
@@ -483,10 +449,6 @@ top: -60px;
 		font-size: 10px;
 
 	}
-	.link.s{
-		right: -50px;
-	}
-	
 	.info.a{
 
 		padding: 30px;
