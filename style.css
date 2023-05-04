@@ -356,8 +356,17 @@ width: 25%;
 
 		font-size: 35px;
 	}
-	
-		
+	/* менять */
+	.p.amd{
+		display: none;
+	}
+	.but{
+		display: none;
+	}
+	.info.confi{
+		width: auto;
+	}
+		/* менять */
 	
 }
 @media screen and (max-width:1400px){
