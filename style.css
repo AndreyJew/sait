@@ -114,10 +114,19 @@ font-size:17px ;
 	width: 50%;
 	
 }
+
 .info.confi{
 	width: 50%;
 }
 
+.help1{
+	width: 33%;
+	display: inline-block;
+}
+.help2{
+	width: 33%;
+	display: inline-block;
+}
 .info.a{
 	width: 99%;
 	
@@ -177,6 +186,22 @@ flex-wrap: wrap;
 	width: 100%;
 
 }
+.fot{
+position: absolute;
+width: 50%;
+
+}
+.fot2{
+	position: absolute;
+	right: 0px;
+	width: 50%;
+}
+#fot{
+	width: 45%;
+	height: 560px;
+	
+}
+
 input {
 	width: 100%; 
 	height: 40px;
@@ -217,9 +242,8 @@ left: 130px;
 
 
 details{
-	display:block;
-	background: #fff;
-	width:400px;
+	background: #ffffff;
+	width:50%;
 	box-shadow: 0 10px 15px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
 	border-radius: 8px;
 	overflow:hidden;
@@ -269,6 +293,7 @@ details{
 h3{
 	color: white;
 }
+
 
 .btn-up {
 	position: fixed;
@@ -376,7 +401,12 @@ width: 25%;
 		width: 30%;
 		right: 170px;
 	}
-	
+	#fot{
+		display: none;
+	}
+	details{
+		width: 80%;
+	}
 }
 @media screen and (max-width:1280px){
 	#conteiner{
