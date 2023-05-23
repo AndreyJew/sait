@@ -109,7 +109,23 @@
 	
 	</div>
 </div>
-
+<input id="searchbar"  onkeyup="search_animal()" type="text" name="search" placeholder="Поиск" >
+<script>
+	function search_animal() {
+    let input = document.getElementById('searchbar').value
+    input=input.toLowerCase();
+    let x = document.getElementsByClassName('pc');
+      
+    for (i = 0; i < x.length; i++) { 
+        if (!x[i].innerHTML.toLowerCase().includes(input)) {
+            x[i].style.display="none";
+        }
+        else {
+            x[i].style.display="list-item";                 
+        }
+    }
+}
+</script>
 
 <div class="info a" align="center">
 		<div class="pac">

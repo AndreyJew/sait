@@ -6,7 +6,7 @@
 
   <link rel="icon" href="img/flaspc.jpg" type="image/x-icon">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="style.css">
+ <link rel="stylesheet" type="text/css" href="style.css">
   
 </head>
 <body>
@@ -91,126 +91,134 @@
 </div>
 
 </div>
-<div class="info confi">
-<h3> E-mail: </h3 > 
- <input type="text" name="email" placeholder="Введите электронную почту. Например: 123@mail.ru">
+<h1 id="top-header">Конфигуратор ПК</h1>
 
-<form>
-<h3> Процессор AMD </h3>
-<select name="proc" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example" >
-  <option selected> Выберите процессор </option>
-  <option value="Ryznen 3 3100"> Ryznen 3 3100   </option>  
-  <option value="Ryznen 5 3300x"> Ryznen 5 3300x </option>
-  <option value="Ryznen 5 2600"> Ryznen 5 2600 </option>
-  <option value="Ryznen 5 3600"> Ryznen 5 3600 </option>
-  <option value="Ryznen 7 1700"> Ryznen 7 1700 </option>
-  <option value="Ryznen 7 2700"> Ryznen 7 2700 </option>
-  <option value="Ryznen 7 3700"> Ryznen 7 3700 </option>
-</select>
+	<h2>Кастомизируйте свой ПК, подобрав желаемый корпус, процессор, оперативную память, графический адаптер и твердотельный накопитель</h2>
 
+	<div class="wrap">
+		<form action="" id="autoForm">
+			<div class="conf">
+			<h2>Конфигурация ПК</h2></div>
+			<div class="CPU">
+				<h4>Процессор</h4>
+				<div class="form-block">
+					<input type="radio" name="cpu" id="BX80684I59600KF" value="7700" checked>
+					<label for="BX80684I59600KF" id="radio">Intel Core i5-9600KF </label>
+				</div>
+				<div class="form-block">
+					<input type="radio" name="cpu" id="BX80684I79700K" value="11700">
+					<label for="BX80684I79700K" id="radio">Intel Core i7-9700K </label>
+				</div>
+				<div class="form-block">
+					<input type="radio" name="cpu" id="BX80673I99960X" value="45800">
+					<label for="BX80673I99960X"id="radio">Intel Core i9-9960X </label>
+				</div>
+				<div class="form-block">
+					<input type="radio" name="cpu" id="100-100000022BOX" value="7800">
+					<label for="100-100000022BOX" id="radio">AMD Ryzen 5 3600X </label>
+				</div>
+				<div class="form-block">
+					<input type="radio" name="cpu" id="100-100000025BOX" value="12600">
+					<label for="100-100000025BOX" id="radio">AMD Ryzen 7 3800X </label>
+				</div>
+				<div class="form-block">
+					<input type="radio" name="cpu" id="100-100000051BOX" value="40500">
+					<label for="100-100000051BOX" id="radio">AMD Ryzen 9 3950X </label>
+				</div>
+			</div>
+			<div class="GPU">
+				<h4>Графический адаптер</h4>
+				<div class="form-block">
+					<input type="radio" name="gpu" id="RX5700XT-8G" value="14185" checked>
+					<label for="RX5700XT-8G" id="radio">ASUS RX5700XT-8G</label>
+				</div>
+				<div class="form-block">
+					<input type="radio" name="gpu" id="GV-N2070AORUS-8GC" value="17809">
+					<label for="GV-N2070AORUS-8GC" id="radio">GIGABYTE GeForce RTX 2070 8G AORUS </label>
+				</div>
+				<div class="form-block">
+					<input type="radio" name="gpu" id="GV-RXVEGA64-8GD-B" value="22800">
+					<label for="GV-RXVEGA64-8GD-B" id="radio">GIGABYTE Radeon RX VEGA 64 8G </label>
+				</div>
+				<div class="form-block">
+					<input type="radio" name="gpu" id="GV-N2080WF3OC-8GC" value="24900">
+					<label for="GV-N2080WF3OC-8GC" id="radio">GIGABYTE GeForce RTX 2080 WINDFORCE OC 8G </label>
+				</div>
+			</div>
+			<div class="OZU">
+				<h4>Оперативная память</h4>
+				<div class="form-block">
+					<input type="radio" name="ozu" id="KF432C16BBK2/16" value="5600" checked>
+					<label for="KF432C16BBK2/16" id="radio">Kingston FURY Beast Black  16 GB</label>
+				</div>
+				<div class="form-block">
+					<input type="radio" name="ozu" id="AX4U32008G16A-DCBK20" value="4000" checked>
+					<label for="AX4U32008G16A-DCBK20" id="radio">ADATA XPG GAMMIX D20  16 GB</label>
+				</div>
+				<div class="form-block">
+					<input type="radio" name="ozu" id="KF556C40BBK2-32" value="8000" checked>
+					<label for="KF556C40BBK2-32" id="radio">Kingston FURY Beast Black  32 GB</label>
+				</div>
+				<div class="form-block">
+					<input type="radio" name="ozu" id="R9S432G3206U2K" value="7000" checked>
+					<label for="R9S432G3206U2K" id="radio">AMD Radeon R9 Gamer Series  32 GB</label>
+				</div>
+			</div>
+			<div class="SSD">
+				<h4>SSD</h4>
+				<div class="form-block">
+					<input type="radio" name="ssd" id="EVO 500 GB" value="5165">
+					<label for="EVO 500 GB" id="radio">Samsung 840 EVO 500 GB </label>
+				</div>
+				<div class="form-block">
+					<input type="radio" name="ssd" id="MZ-76P1T0BW" value="8950" checked>
+					<label for="MZ-76P1T0BW" id="radio">Samsung 860 PRO 1 TB </label>
+				</div>
+				<div class="form-block">
+					<input type="radio" name="ssd" id="MZ-76P2T0BW" value="15209">
+					<label for="MZ-76P2T0BW" id="radio">Samsung 860 PRO 2 TB </label>
+				</div>
+				<div class="form-block">
+					<input type="radio" name="ssd" id="MZ-75E4T0BW" value="34165">
+					<label for="MZ-75E4T0BW" id="radio">Samsung 850 EVO 4 TB </label>
+				</div>
+				
+			</div>
+		</form>
 
-<h3> Материнская плата </h3>
-<select name="mat" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
-  <option selected> Выберите материнскую плату </option>
-  <option value="MSI A320M-A PRO"> MSI A320M-A PRO </option>
-  <option value="GIGABYTE A520M H"> GIGABYTE A520M H </option>
-  <option value="ASUS PRIME B450M-K"> ASUS PRIME B450M-K </option>
-  <option value="GIGABYTE B450M DS3H V2"> GIGABYTE B450M DS3H V2 </option>
-  <option value="ASRock B550M-HDV"> ASRock B550M-HDV  </option>
-  <option value="MSI X470 GAMING PLUS MAX">MSI X470 GAMING PLUS MAX </option>
-  <option value="GIGABYTE X570 GAMING X"> GIGABYTE X570 GAMING X </option>
-</select>
+		<div id="configurator">
+			<h2>Выберите корпус</h2>
+			<div id="imgHolder" class="imgHolder">
+				<img src="img/chassis/Thermaltake Versa H13 Black_Win (CA-1D3-00S1WN-00).jpg" alt="Chassis">
+			</div>
 
+			<div id="chassisSelector" class="chassisSelector">
+				<div class="chassisItem chassis1"><img src="img/chassis/Thermaltake Versa H13 Black_Win (CA-1D3-00S1WN-00).jpg" alt="CA-1D3-00S1WN-00" data-flag="1" data-price="1500" data-model="Thermaltake Versa H13 Black_Win (CA-1D3-00S1WN-00)"></div>
+				<div class="chassisItem chassis2"><img src="img/chassis/Thermaltake Versa C22 RGB (CA-1G9-00M1WN-00).jpg" alt="CA-1G9-00M1WN-00" data-flag="0" data-price="2000" data-model="Thermaltake Versa C22 RGB (CA-1G9-00M1WN-00)"></div>
+				<div class="chassisItem chassis3"><img src="img/chassis/Chieftec Stallion II (GP-02B-OP).jpg" alt="GP-02B-OP" data-flag="0" data-price="3000" data-model="Chieftec Stallion II (GP-02B-OP)"></div>
+				<div class="chassisItem chassis4"><img src="img/chassis/Cooler Master Trooper SE (SGC-5000-KWN2).jpg" alt="SGC-5000-KWN2" data-flag="0" data-price="5000" data-model="Cooler Master Trooper SE (SGC-5000-KWN2)"></div>
+				<div class="chassisItem chassis5"><img src="img/chassis/Fractal Design Define R6 USB-C Black TG (FD-CA-DEF-R6C-BK-TGL).jpg" alt="FD-CA-DEF-R6C-BK-TGL" data-flag="0" data-price="5500" data-model="Fractal Design Define R6 USB-C Black TG (FD-CA-DEF-R6C-BK-TGL)"></div>
+				<div class="chassisItem chassis6"><img src="img/chassis/Thermaltake Core P90 Tempered Glass Edition (CA-1J8-00M1WN-00).jpg" alt="CA-1J8-00M1WN-00" data-flag="0" data-price="6500" data-model="Thermaltake Core P90 Tempered Glass Edition (CA-1J8-00M1WN-00)"></div>
+				<div class="chassisItem chassis7"><img src="img/chassis/Thermaltake Level 20 GT RGB Plus (CA-1K9-00F1WN-01).jpg" alt="CA-1K9-00F1WN-01" data-flag="0" data-price="9800" data-model="Thermaltake Level 20 GT RGB Plus (CA-1K9-00F1WN-01)"></div>
+				
+			</div>
 
-<h3> Видеокарта </h3>
-<select name="vid" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
-  <option selected> Выберите видеокарту </option>
-  <option value="GTX 1050ti"> GTX 1050ti </option>
-  <option value="GTX 1060"> GTX 1060 </option>
-  <option value="GTX 1650"> GTX 1650 </option>
-  <option value="GTX 1650 super"> GTX 1650 super </option>
-  <option value="GTX 1660"> GTX 1660  </option>
-  <option value="GTX 1660 Super">GTX 1660 Super </option>
-  <option value="GTX 1070"> GTX 1070 </option>
-</select>
-
-<h3> ОЗУ </h3>
-<select name="ozy" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
-  <option selected> Выберите оперативную память </option>
-  <option value="Kingston HyperX FURY Black 4 ГБ"> Kingston HyperX FURY Black 4 ГБ </option>
-  <option value="Kingston HyperX FURY Black RGB 8 ГБ"> Kingston HyperX FURY Black RGB 8 ГБ </option>
-  <option value="Kingston HyperX FURY Black 16 ГБ"> Kingston HyperX FURY Black 16 ГБ </option>
-  <option value="Kingston HyperX Predator 16 ГБ"> Kingston HyperX Predator 16 ГБ  </option>
-  <option value="Kingston HyperX FURY Black RGB 32 ГБ"> Kingston HyperX FURY Black RGB 32 ГБ </option>
-  <option value="Kingston HyperX Predator RGB 64 ГБ"> Kingston HyperX Predator RGB 64 ГБ </option>
+			<div class="model-summary">
+				<div class="model-name"><h4>Power Computer</h4></div>
+				<div id="modelSpecs" class="model-specs"></div>
+				<div id="modelPrice" class="model-price"></div>
+				<div id="modelPriceUSD" class="model-priceUSD"></div>
+				<div class="button" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Заказать</div>
+			</div>
+		</div>
+	</div>
+	
+	
   
-</select>
-
-<select name="ozy" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
-	<option selected> Выберите оперативную память </option>
-	<option value="Kingston HyperX FURY Black 4 ГБ"> Kingston HyperX FURY Black 4 ГБ </option>
-	<option value="Kingston HyperX FURY Black RGB 8 ГБ"> Kingston HyperX FURY Black RGB 8 ГБ </option>
-	<option value="Kingston HyperX FURY Black 16 ГБ"> Kingston HyperX FURY Black 16 ГБ </option>
-	<option value="Kingston HyperX Predator 16 ГБ"> Kingston HyperX Predator 16 ГБ  </option>
-	<option value="Kingston HyperX FURY Black RGB 32 ГБ"> Kingston HyperX FURY Black RGB 32 ГБ </option>
-	<option value="Kingston HyperX Predator RGB 64 ГБ"> Kingston HyperX Predator RGB 64 ГБ </option>
-  </select>
-  
-  
-<h3> SSD </h3>
-<select name="ssd" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
-  <option selected> Выберите SSD-накопитель </option>
-  <option value="120 ГБ Crucial BX500"> 120 ГБ Crucial BX500 </option>
-  <option value="240 ГБ Kingston A400"> 240 ГБ Kingston A400 </option>
-  <option value="480 ГБ WD Green"> 480 ГБ WD Green </option>
-  <option value="1000 ГБ Samsung 870 QVO"> 1000 ГБ Samsung 870 QVO </option>
-</select>  
-
-<select name="ssd" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
-	<option selected> Выберите SSD-накопитель </option>
-	<option value="120 ГБ Crucial BX500"> 120 ГБ Crucial BX500 </option>
-	<option value="240 ГБ Kingston A400"> 240 ГБ Kingston A400 </option>
-	<option value="480 ГБ WD Green"> 480 ГБ WD Green </option>
-	<option value="1000 ГБ Samsung 870 QVO"> 1000 ГБ Samsung 870 QVO </option>
-  </select>
-
-<h3> Жесткий диск </h3>
-<select name="dd" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
-  <option selected> Выберите жесткий диск </option>
-  <option value="1 ТБ Seagate 7200 BarraCuda"> 1 ТБ Seagate 7200 BarraCuda </option>
-  <option value="1 ТБ WD Blue"> 1 ТБ WD Blue  </option>
-  <option value="3 ТБ Seagate BarraCuda"> 3 ТБ Seagate BarraCuda </option>
-  <option value="4 ТБ Seagate 5900 SkyHawk"> 4 ТБ Seagate 5900 SkyHawk </option>
-</select>
-
-<select name="dd" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
-	<option selected> Выберите жесткий диск </option>
-	<option value="1 ТБ Seagate 7200 BarraCuda"> 1 ТБ Seagate 7200 BarraCuda </option>
-	<option value="1 ТБ WD Blue"> 1 ТБ WD Blue  </option>
-	<option value="3 ТБ Seagate BarraCuda"> 3 ТБ Seagate BarraCuda </option>
-	<option value="4 ТБ Seagate 5900 SkyHawk"> 4 ТБ Seagate 5900 SkyHawk </option>
-  </select>    
-
-<h3> Блок питания </h3>
-<select name="bp" class="form-select form-select-lg mb-" aria-label=".form-select-lg example" >
-  <option selected> Выберите блок питания </option>
-  <option value="DEEPCOOL DE500 v2"> DEEPCOOL DE500 v2 </option>
-  <option value="Thermaltake TR2 S 500W"> Thermaltake TR2 S 500W </option>
-  <option value="CoolerMaster Elite V3 600W"> CoolerMaster Elite V3 600W </option>
-  <option value="ZALMAN GigaMax (GVII) 650W"> ZALMAN GigaMax (GVII) 650W </option>
-</select>
-
-<br>
-
-
-
-</div>
-
-<img src="img/pc5.jpg" class="p amd">
-
-<a href="index.html"> <input type="submit" value="Отправить" class="but"> </a>
-
-</form>
+	<link rel="stylesheet" href="libs/normalize.css">
+	<link rel="stylesheet" href ="dist/css/main.css">
+	<script src="libs/production_jQuery_3_4_1.js"></script>
+	<script src="dist/js/script.js"></script>
 
 <div class="podval">
 	<div class="text">

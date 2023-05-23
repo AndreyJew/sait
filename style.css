@@ -6,6 +6,7 @@ body{
 margin: 0;
 
 }
+
 #conteiner{
 	width: 2255px;
 	height: auto;
@@ -19,7 +20,13 @@ option{
 	width: 1000px; 
 height: 40px;
 }
-
+#searchbar{
+	margin-left: 40%;
+	padding:15px;
+	border-radius: 10px;
+	width: 20%;
+	
+  }
 .menu{
 	width: auto;
 	height: 180px;
@@ -162,16 +169,21 @@ margin: 0px;
 	
 }
 .pc{
-	width: 33%;
+	
 margin-left: 20px;
 margin-top: 20px;
 width: 26rem;
 }
-
+.pc-n{
+	margin-left: 20px;
+margin-top: 20px;
+width: 26rem;
+}
 
 .modal-title{
-color: black;
+color: rgb(4, 4, 4);
 }
+
 .modal-body{
 	background: url(img/фон.jpg);
 	color: white;
@@ -246,6 +258,8 @@ details{
 	width:50%;
 	box-shadow: 0 10px 15px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
 	border-radius: 8px;
+	margin: 10px;
+	padding: 5px;
 	overflow:hidden;
 	margin-bottom: 1.5rem;
   }
@@ -332,6 +346,7 @@ h3{
 		width: 100%;
 
 	}
+	
 	.menu{
 
 		width:100%;
@@ -339,7 +354,14 @@ h3{
 		
 	}
 	
+	.pc{
+		width: 24rem;
 	
+	}
+	.pac{
+		padding-left: 130px;
+		
+	}
 	.link.s{
 
 		left: auto;
@@ -347,7 +369,9 @@ h3{
 		font-size: auto;
 
 	}
-	
+	.pc-n{
+		display: none;
+	}
 	
 	
 }
@@ -361,17 +385,74 @@ width: 25%;
 }
 
 
-@media screen and (max-width:1812px){
+@media screen and (max-width:1821px){
 	.info.a{
 		
 	position: relative;
 		
 
 	}
-	
+	.pac{
+		padding-left: 50px;
+		
+	}
 	
 }
-
+@media screen and (max-width:1733px){
+	.pac{
+		padding-left: 76px;
+		
+		
+	}
+	.pc{
+		width: 22rem;
+	
+	}
+	
+	.card-text{
+		font-size: 15px;
+	}
+	#zakazpc{
+		font-size: 15px;
+	}
+}
+@media screen and (max-width:1655px){
+	.pac{
+		padding-left: 40px;
+		
+		
+	}
+	.pc{
+		width: 22rem;
+	
+	}
+	
+	.card-text{
+		font-size: 15px;
+	}
+	#zakazpc{
+		font-size: 15px;
+	}
+}
+@media screen and (max-width:1594px){
+	.pac{
+		padding-left: 50px;
+		
+		
+	}
+	.pc{
+		width: 21rem;
+	
+	}
+	
+	.card-text{
+		font-size: 15px;
+	}
+	#zakazpc{
+		font-size: 15px;
+	}
+}
+/* остановился на 1594PX */
 @media screen and (max-width:1556px){
 	.content{
 
@@ -390,6 +471,25 @@ width: 25%;
 		/* менять */
 	
 }
+@media screen and (max-width:1457px){
+	.pac{
+		padding-left: 1px;
+	}
+	.pc{
+		width: 20.2rem;
+	}
+	.card-text.a{
+		padding-left: 40px;
+	}
+	
+	.card-text{
+		font-size: 12px;
+	}
+	#zakazpc{
+		font-size: 12px;
+	}
+	
+}
 @media screen and (max-width:1400px){
 	
 	#b1{
@@ -406,7 +506,48 @@ width: 25%;
 	}
 	details{
 		width: 80%;
+	
 	}
+}
+@media screen and (max-width:1323px){
+	.pac{
+		padding-left: 15px;
+	}
+	.pc{
+		width: 18rem;
+	}
+	.card-text.a{
+		padding-left: 40px;
+	}
+	
+	.card-text{
+		font-size: 12px;
+	}
+	#zakazpc{
+		font-size: 12px;
+		left: 100px;
+		top: -60px;
+	}
+	
+}
+@media screen and (max-width:1214px){
+	.pac{
+		padding-left: 70px;
+	}
+	.pc{
+		width: 24rem;
+	}
+	.card-text.a{
+		padding-left: 40px;
+	}
+	
+	.card-text{
+		font-size: 13px;
+	}
+	#zakazpc{
+		font-size: 13px;
+	}
+	
 }
 @media screen and (max-width:1280px){
 	#conteiner{
@@ -443,7 +584,26 @@ width: 25%;
 			
 		}
 }
-
+@media screen and (max-width:1041px){
+	.pac{
+		padding-left: 50px;
+	}
+	.pc{
+		width: 20rem;
+	}
+	.card-text.a{
+		padding-left: 40px;
+	}
+	
+	.card-text{
+		font-size: 12px;
+	}
+	#zakazpc{
+		font-size: 12px;
+		margin-left: -30px;
+	}
+	
+}
 @media screen and (max-width:1000px){
 	.content{
 
@@ -502,33 +662,35 @@ width: 25%;
 	
 
 @media screen and (max-width:510px){
-	#soc{
-
-		display: none;
-	}
+	
 
 	#p{
 
 		display: none;
 	}
-
+	.pac{
+		padding-left: 60px;
+	}
 	
 	#pc{
 
-		width: 50%;
+		width: 70%;
 
+	}
+	#b1{
+		font-size: 12px;
 	}
 	.card-text{
 
 left: -75px;
-		font-size: 10px;
+		font-size: 15px;
 
 	}
 	#zakazpc{
 
 left: 75px;
 top: -60px;
-		font-size: 10px;
+		font-size: 15px;
 
 	}
 	.link.s{
@@ -543,3 +705,4 @@ top: -60px;
 
 	}
 }
+
