@@ -13,7 +13,7 @@ $('document').ready(function () {
 
   var currencyUrl = 'https://old.bank.gov.ua/NBUStatService/v1/statdirectory/exchange?json'; //'https://bank.gov.ua/NBUStatService/v1/statdirectory/exchangenew?json'
 
-  var uahUsdRate = 24; //declare global functions
+  var uahUsdRate = 75; //declare global functions
   //function that calculates the price in UAH
 
   function calculatePrice() {
