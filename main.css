@@ -1,7 +1,4 @@
-html{
 
-overflow-x: hidde;
-}
 * {
   box-sizing: border-box; }
 
@@ -131,7 +128,7 @@ label {
 background-color: #f8f6f6;}
   .wrap #autoForm {
     display: inline-block;
-    min-width: 200px;
+    
     margin: 20px 10px; }
     .wrap #autoForm .form-block {
       margin: 1px 0px; }
@@ -247,7 +244,7 @@ background-color: #f8f6f6;}
   .form-block{
     font-size: 10px;
   }
-
+ 
 }
 @media screen and (max-width:1280px){
 	.link.s{
@@ -260,16 +257,19 @@ background-color: #f8f6f6;}
   .form-block{
     font-size: 7px;
   }
-
+  h1, h2, h4, footer{
+    font-size: 20px;
+   }
+ 
  
 }
 @media screen and (max-width:1000px){
  .wrap{
   position: relative;
   font-size: 12px;
-  width: 880px;
+  width: auto;
   height: 550px;
-  margin-left: 1%;
+  margin: 1%;
  }
 .wrap #configurator #chassisSelector .chassisItem img {
   position: relative;
@@ -282,9 +282,7 @@ background-color: #f8f6f6;}
  h1, h2, h4, footer{
   font-size: 12px;
  }
- #h2{
-  
- }
+ 
 
 .wrap #configurator #imgHolder img {
   height: 250px;
@@ -298,13 +296,84 @@ margin-right: 50%; }
   margin-right: 15%;
   font-size: 10px;
    }
+   .wrap #autoForm{
+   width: 300px;
+    
+   }
 }
    
  @media screen and (max-width:750px){
 	#soc{
 		display: none;
 	}
- }
+  .wrap #configurator #chassisSelector .chassisItem img {
+
+    width: 40px;
+   }
+   h1, h2, h4, footer{
+    font-size: 8px;
+   
+    padding: 3px;
+    
+   }
+   .wrap{
+    position: relative;
+    width: auto;
+    height: 420px;
+    
+   
+   }
+   
+   .chassisSelector{
+    width: auto;
+    padding-bottom: 30px;
+    
+   }
+   .wrap #configurator #imgHolder img {
+    height: 180px;
+  width: 180px;
+  margin-top: 10%;
+   }
+  .wrap #configurator .model-summary  {
+    width: 130px;
+    height: 180px;
+    margin-right: 8%;
+    font-size: 6px;
+     }
+     .wrap #configurator .model-summary .model-price  {
+    top: -85px;
+    position: relative;
+       }
+       .wrap #configurator .model-summary .model-priceUSD  {
+        top: -90px;
+        position: relative;
+           }
+           .wrap #configurator .model-summary .button {
+            width: 110px;
+            
+            position: relative;
+            top: -90px;
+           
+            }
+
+   .wrap #configurator #chassisSelector .chassisItem{
+    margin: 5px;
+   }
+   .form-block{
+ font-size: 5px;
+
+   }
+  [type="radio"]{
+    width: 1em;
+    top: 5px;
+    position: relative;
+  }
+  .wrap #autoForm{
+    width: 350px;
+     
+    }
+    }
+ 
  @media screen and (max-width:510px){
 	#b1{
 		font-size: 12px;
@@ -313,4 +382,14 @@ margin-right: 50%; }
 		position: absolute;
 		padding-left: 30px;
 	}
+  .k{
+		display: none;
+	}
+  #top-header{
+    position: relative;
+    top
+  }
+  .menu{
+    margin-bottom: 40px;
+  }
 }

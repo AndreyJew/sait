@@ -631,6 +631,7 @@ height: 65px;
 		display: none;
 
 	}
+	
 	.content{
 
 		font-size: 15px;
@@ -644,6 +645,10 @@ height: 65px;
 		font-size: 1px;
 
 	}
+	details{
+		width: 90%;
+	
+	}
 }
 @media screen and (max-width: 636px){
 #pc{
@@ -656,8 +661,10 @@ height: 65px;
 	font-size: 12px;
 }
 .pac{
+
 	padding-left: 65px;
 }
+
 }
 	
 
@@ -680,6 +687,9 @@ height: 65px;
 	#b1{
 		font-size: 12px;
 	}
+	.k{
+		display: none;
+	}
 	.card-text{
 
 left: -75px;
@@ -698,7 +708,10 @@ top: -60px;
 		padding-left: 30px;
 	}
 	
-	
+	.help{
+		position: relative;
+		top: 40px;
+	}
 	.carousel-caption.d-none.d-md-block{
 
 		font-size: 1px;
