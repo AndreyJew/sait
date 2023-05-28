@@ -704,5 +704,8 @@ top: -60px;
 		font-size: 1px;
 
 	}
+	details{
+		font-size: 30px;
+	}
 }
 
