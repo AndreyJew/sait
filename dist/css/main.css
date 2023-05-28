@@ -382,5 +382,14 @@ margin-right: 50%; }
 		position: absolute;
 		padding-left: 30px;
 	}
-  
+  .k{
+		display: none;
+	}
+  #top-header{
+    position: relative;
+    top
+  }
+  .menu{
+    margin-bottom: 40px;
+  }
 }
