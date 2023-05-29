@@ -126,7 +126,17 @@
     }
 }
 </script>
-
+<script>
+	document.addEventListener('DOMContentLoaded', function () { // При загрузке документа
+        let sel = document.querySelector('.form-select.form-select-lg.mb-'); // Получаем селект
+        let buttons = document.querySelectorAll('#zakazpc'); // Получаем кнопки с классом
+        buttons.forEach(function (c) { // Для каждой кнопки
+            c.onclick = function () { // Слушаем нажатие
+                sel.value = c.value; // Если нажата, то выбирает тот option, который в тексте кнопки.
+            }
+        })
+    })
+</script>
 <div class="info a" align="center">
 		<div class="pac">
 		<div class="pc" >
@@ -141,7 +151,7 @@
 
 	<p class="card-text a">87 000 </p>
 
-	<a href="#" class="glavar" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo" id="zakazpc">ЗаказатьПК</a>
+	<button class="glavar" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo" id="zakazpc">ЗаказатьПК</a>
 
 
 			
@@ -158,7 +168,7 @@
 
   <p class="card-text a">87 000 </p>
 
-	<a href="#" class="glavar" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo" id="zakazpc">ЗаказатьПК</a>
+	<button class="glavar" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo" id="zakazpc">ЗаказатьПК</a>
 
 			</div>
 
@@ -175,7 +185,7 @@
 
 			<p class="card-text a">87 000 </p>
 			
-				<a href="#" class="glavar" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo" id="zakazpc">ЗаказатьПК</a>
+				<button class="glavar" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo" id="zakazpc">ЗаказатьПК</a>
 			
 			</div>
 		
@@ -192,7 +202,7 @@
 
   <p class="card-text a">87 000 </p>
 
-	<a href="#" class="glavar" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo" id="zakazpc">ЗаказатьПК</a>
+	<button class="glavar" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo" id="zakazpc">ЗаказатьПК</a>
 
 				</div>
 				
@@ -209,7 +219,7 @@
 	
 	  <p class="card-text a">87 000 </p>
 	
-		<a href="#" class="glavar" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo" id="zakazpc">ЗаказатьПК</a>
+		<button class="glavar" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo" id="zakazpc">ЗаказатьПК</a>
 	
 					</div>
 
@@ -226,7 +236,7 @@
 		
 		  <p class="card-text a">87 000 </p>
 		
-			<a href="#" class="glavar" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo" id="zakazpc">ЗаказатьПК</a>
+			<button class="glavar" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo" id="zakazpc">ЗаказатьПК</a>
 		
 						</div>
 
@@ -243,7 +253,7 @@
 			
 			  <p class="card-text a">87 000 </p>
 			
-				<a href="#" class="glavar" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo" id="zakazpc">ЗаказатьПК</a>
+				<button class="glavar" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo" id="zakazpc">ЗаказатьПК</a>
 			
 							</div>
 
@@ -260,7 +270,7 @@
 				
 				  <p class="card-text a">87 000 </p>
 				
-					<a href="#" class="glavar" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo" id="zakazpc">ЗаказатьПК</a>
+					<button class="glavar" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo" id="zakazpc">ЗаказатьПК</a>
 				
 								</div>
 
@@ -277,7 +287,7 @@
 					
 					  <p class="card-text a">87 000 </p>
 					
-						<a href="#" class="glavar" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo" id="zakazpc">ЗаказатьПК</a>
+						<button class="glavar" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo" id="zakazpc">ЗаказатьПК</a>
 					
 									</div>
 
@@ -294,7 +304,7 @@
 						
 						  <p class="card-text a">87 000 </p>
 						
-							<a href="#" class="glavar" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo" id="zakazpc">ЗаказатьПК</a>
+							<button class="glavar" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo" id="zakazpc">ЗаказатьПК</a>
 						
 										</div>
 
@@ -311,7 +321,7 @@
 
   <p class="card-text a">87 000 </p>
 
-	<a href="#" class="glavar" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo" id="zakazpc">ЗаказатьПК</a>
+	<button class="glavar" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo" id="zakazpc">ЗаказатьПК</a>
 
 				</div>
 
@@ -328,7 +338,7 @@
 
   <p class="card-text a">87 000 </p>
 
-	<a href="#" class="glavar" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo" id="zakazpc">ЗаказатьПК</a>
+	<button class="glavar" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo" id="zakazpc">ЗаказатьПК</a>
 
 				</div>
 
@@ -345,7 +355,7 @@
 
   <p class="card-text a">87 000 </p>
 
-	<a href="#" class="glavar" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo" id="zakazpc">ЗаказатьПК</a>
+	<button class="glavar" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo" id="zakazpc">ЗаказатьПК</a>
 
 				</div>
 
@@ -361,7 +371,7 @@
 
   <p class="card-text a">87 000 </p>
 
-	<a href="#" class="glavar" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo" id="zakazpc">ЗаказатьПК</a>
+	<button class="glavar" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo" id="zakazpc">ЗаказатьПК</a>
 
 				</div>
 				<div class="pc" >
@@ -377,7 +387,7 @@
 
   <p class="card-text a">87 000 </p>
 
-	<a href="#" class="glavar" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo" id="zakazpc">ЗаказатьПК</a>
+	<button class="glavar" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo" id="zakazpc">ЗаказатьПК</a>
 
 				</div>
 					</div>

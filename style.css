@@ -786,3 +786,38 @@ top: -60px;
 	
 }
 
+@media screen and (max-width:360px){
+	#pc{
+	width: 100%;
+}
+.card-text{
+	font-size: 7px;
+	margin: 5px;
+}
+#zakazpc{
+	font-size: 5px;
+	margin: 0%;
+	padding: 0%;
+	left: 23px;
+	top: -30px;
+}
+.pc{
+	position: relative;
+	left: -5%;
+	width: 93px;
+	
+		}
+.card-text.a{
+	left: -50px;
+}
+.pac{
+	padding-left: 105px;
+}
+
+button{
+	width: 40px;
+	
+}
+}
+  
+  
