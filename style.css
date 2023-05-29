@@ -211,7 +211,7 @@ width: 50%;
 #fot{
 	width: 45%;
 	height: 560px;
-	
+	margin-top: 9%;
 }
 
 input {
@@ -469,7 +469,10 @@ width: 25%;
 		width: auto;
 	}
 		/* менять */
-	
+		.pc{
+			position: relative;
+					left: 10%;
+				}
 }
 @media screen and (max-width:1457px){
 	.pac{
@@ -489,6 +492,7 @@ width: 25%;
 		font-size: 12px;
 	}
 	
+	
 }
 @media screen and (max-width:1400px){
 	
@@ -507,6 +511,10 @@ width: 25%;
 	details{
 		width: 80%;
 	
+	}
+	.pc{
+position: relative;
+		left: 10%;
 	}
 }
 @media screen and (max-width:1323px){
@@ -579,10 +587,15 @@ height: 65px;
 		display: none;
 
 	}
+	
 	.info.a{
 		padding-left: 150px;
 			
 		}
+		.pc{
+			position: relative;
+			left: -3%;
+				}
 }
 @media screen and (max-width:1041px){
 	.pac{
@@ -614,14 +627,56 @@ height: 65px;
 		padding-left: 260px;
 			
 		}
+		.pc{
+			position: relative;
+			left: -20%;
+			width: 270px;
+				}
+				#pc{
+
+					width: 80%;
+			
+				}
 	
 }
+@media screen and (max-width:800px){
+.pc{
+	position: relative;
+	left: -25%;
+	width: 190px;
+	
+		}
+		#pc{
+
+			width: 80%;
+	
+		}
+		.card-text.a{
+			left: -80px;
+		}
+		#zakazpc{
+			left: 80px;
+		}
+		.card-text{
+
+			left: -75px;
+					font-size: 8px;
+			
+				}
+	}
+		
+	
 @media screen and (max-width:750px){
 	#soc{
 
 		display: none;
 
 	}
+	.pc{
+		position: relative;
+		left: 0%;
+		
+			}
 	.info.a{
 		padding-left: 10px;
 			
@@ -631,6 +686,12 @@ height: 65px;
 		display: none;
 
 	}
+	.card-text{
+
+		left: -75px;
+				font-size: 8px;
+		
+			}
 	
 	.content{
 
@@ -649,19 +710,19 @@ height: 65px;
 		width: 90%;
 	
 	}
+	
 }
 @media screen and (max-width: 636px){
 #pc{
-	width: 50%;
+	width: 65%;
 }
 .card-text{
-	font-size: 12px;
+	font-size: 9px;
 }
 #zakazpc{
-	font-size: 12px;
+	font-size: 10px;
 }
 .pac{
-
 	padding-left: 65px;
 }
 
@@ -677,8 +738,13 @@ height: 65px;
 	}
 	.pac{
 		padding-left: 60px;
+		
 	}
-	
+	.pc{
+		width: 150px;
+		padding-right: 100px;
+		padding: 0px;
+	}
 	#pc{
 
 		width: 70%;
@@ -693,14 +759,14 @@ height: 65px;
 	.card-text{
 
 left: -75px;
-		font-size: 15px;
+		font-size: 8px;
 
 	}
 	#zakazpc{
 
 left: 75px;
 top: -60px;
-		font-size: 15px;
+		font-size: 8px;
 
 	}
 	.link.s{
