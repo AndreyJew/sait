@@ -301,6 +301,71 @@ margin-right: 50%; }
     
    }
 }
+@media screen and (max-width:850px){
+
+  #soc{
+		display: none;
+	}
+  .wrap #configurator #chassisSelector .chassisItem img {
+
+    width: 60px;
+   }
+   h1, h2, h4, footer{
+    font-size: 8px;
+   
+    padding: 3px;
+    
+   }
+   .wrap{
+    position: relative;
+    width: auto;
+    height: 420px;
+    
+   
+   }
+   
+   .chassisSelector{
+    width: auto;
+    padding-bottom: 30px;
+    
+   }
+   .wrap #configurator #imgHolder img {
+    height: 180px;
+  width: 180px;
+  margin-top: 10%;
+   }
+  .wrap #configurator .model-summary  {
+    width: 130px;
+    height: 180px;
+    margin-right: 8%;
+    font-size: 7px;
+     }
+
+.wrap #configurator .model-summary .button {
+  width: 110px;
+           
+           
+   }
+.wrap #configurator .model-summary #modelSpecs {
+    padding: 10px;
+    height: 87px; }
+   .wrap #configurator #chassisSelector .chassisItem{
+    margin: 5px;
+   }
+   .form-block{
+ font-size: 6px;
+
+   }
+  [type="radio"]{
+    width: 1em;
+    top: 5px;
+    position: relative;
+  }
+  .wrap #autoForm{
+    width: 350px;
+     
+    }
+}
    
  @media screen and (max-width:750px){
 	#soc{
@@ -340,22 +405,16 @@ margin-right: 50%; }
     margin-right: 8%;
     font-size: 6px;
      }
-     .wrap #configurator .model-summary .model-price  {
-    top: -85px;
-    position: relative;
-       }
-       .wrap #configurator .model-summary .model-priceUSD  {
-        top: -90px;
-        position: relative;
-           }
+     
            .wrap #configurator .model-summary .button {
             width: 110px;
-            
-            position: relative;
-            top: -90px;
+
            
             }
 
+.wrap #configurator .model-summary #modelSpecs {
+    padding: 10px;
+    height: 85px; }
    .wrap #configurator #chassisSelector .chassisItem{
     margin: 5px;
    }
@@ -375,7 +434,76 @@ margin-right: 50%; }
     }
  
  @media screen and (max-width:510px){
-	#b1{
+	.wrap #configurator #chassisSelector .chassisItem img {
+
+    width: 25px;
+   }
+   h1, h2, h4, footer{
+    font-size: 8px;
+   
+    padding: 1px;
+    
+   }
+   .wrap{
+    position: relative;
+    width: auto;
+    height: 320px;
+    
+   
+   }
+   
+   .chassisSelector{
+    width: 200px;
+    padding-bottom: 10px;
+    padding-left: 27%;
+    
+   }
+   .wrap #configurator #imgHolder img {
+    height: 120px;
+  width: 120px;
+  margin-top: 15%;
+   }
+  .wrap #configurator .model-summary  {
+    width: 100px;
+    height: 125px;
+    margin-right: 8%;
+   margin-top:-10px ;
+    font-size: 4.5px;
+     }
+     
+           .wrap #configurator .model-summary .button {
+            width: 90px;
+           
+            }
+            .wrap #configurator .model-summary #modelSpecs {
+              padding: 10px;
+              height: 50px; }
+   .wrap #configurator #chassisSelector .chassisItem{
+    margin: 5px;
+   }
+   
+   .form-block{
+ font-size: 4px;
+ height: 12px;
+   }
+   .wrap #autoForm .form-block{
+    margin: 0px;
+ 
+   }
+  [type="radio"]{
+    width: 1.5em;
+    top: -1px;
+    position: relative;
+  }
+  #radio{
+    position: relative;
+    bottom:6px
+  }
+  .wrap #autoForm{
+    width: 350px;
+     
+    }
+  #b1{
 		font-size: 12px;
 	}
 	link.s{
@@ -385,10 +513,6 @@ margin-right: 50%; }
   .k{
 		display: none;
 	}
-  #top-header{
-    position: relative;
-    top
-  }
   .menu{
     margin-bottom: 40px;
   }
